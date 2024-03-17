@@ -12,13 +12,13 @@ export const pricingPlans = [
   },
   {
     id: "pro",
-    name: "Pro",
+    name: "Pro Monthly",
     description:
       "A plan to test the purchase experience. Try buying this with the test credit card 4242424242424242.",
-    price: "$5",
+    price: "$19.95",
     priceIntervalName: "per month",
-    stripe_price_id: "price_1NkdZCHMjzZ8mGZnRSjUm4yA",
-    stripe_product_id: "prod_OXj1CcemGMWOlU",
+    stripe_price_id: "price_1OvOY2BY2rJMMJgqtPhtp3vX",
+    stripe_product_id: "prod_PkuMEcwojqxKfc",
     features: [
       "Everything in Free",
       "Support us with fake money",
@@ -26,18 +26,19 @@ export const pricingPlans = [
     ],
   },
   {
-    id: "enterprise",
-    name: "Enterprise",
+    id: "pro",
+    name: "Pro Yealry",
     description:
-      "A plan to test the upgrade expereince. Try buying this with the test credit card 4242424242424242.",
-    price: "$15",
-    priceIntervalName: "per month",
-    stripe_price_id: "price_1Nkda2HMjzZ8mGZn4sKvbDAV",
-    stripe_product_id: "prod_OXj20YNpHYOXi7",
+      "A plan to test the purchase experience. Try buying this with the test credit card 4242424242424242.",
+    price: "$19.95",
+    priceIntervalName: "per year",
+    stripe_price_id: "price_1OvOXRBY2rJMMJgqCMyOjree",
+    stripe_product_id: "prod_PkuMdvq9kqOpY6",
     features: [
-      "Everything in Pro",
-      "Try the 'upgrade plan' UX",
-      "Still actually free!",
+      "Everything in Free",
+      "Support us with fake money",
+      "Test the purchase experience",
     ],
   },
+
 ]
